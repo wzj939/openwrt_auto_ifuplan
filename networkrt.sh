@@ -12,4 +12,4 @@ do
         sleep 3
 done
 
-/etc/init.d/network restart
+/etc/init.d/network restart #(改成ifup lan，重启lan口） (改成ifup wan，重启wan口）
