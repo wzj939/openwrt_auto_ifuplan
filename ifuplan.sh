@@ -12,5 +12,5 @@ do
         sleep 3
 done
 
-/etc/init.d/network restart #(改成ifup lan，重启lan口） (改成ifup wan，重启wan口）
-#openwrt计划任务中添加*/1 * * * * sh /root/networkrt.sh，每1分钟执行1次任务。
+ifup lan #(改成ifup lan，重启lan口） (改成ifup wan，重启wan口）
+#openwrt计划任务中添加*/1 * * * * sh /root/ifuplan.sh，每1分钟执行1次任务。
