@@ -3,7 +3,7 @@ tries=0
 echo --- my_watchdog start ---
 while [[ $tries -lt 3 ]]
 do
-        if /bin/ping -c 1 github.com >/dev/null
+        if /bin/ping -c 1 alt3-mtalk.google.com >/dev/null
         then
             echo --- exit ---
             exit 0
